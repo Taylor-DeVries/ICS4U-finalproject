@@ -271,8 +271,8 @@ public class fseProgram4plus {
 		
 		try {
 			
-			BufferedReader inputFile    = new BufferedReader (new FileReader ("C:\\Users\\taylo_gdgtqax\\Com sci files\\teacherinfo.txt") ); //reads in the input file
-			PrintWriter    outputFile   = new PrintWriter (new FileWriter("C:\\Users\\taylo_gdgtqax\\Com sci files\\teacherout.txt"));       //creats an output file
+			BufferedReader inputFile    = new BufferedReader (new FileReader ("C:\\Com sci files\\teacherinfo.txt") ); //reads in the input file
+			PrintWriter    outputFile   = new PrintWriter (new FileWriter("C:\\Com sci files\\teacherout.txt"));       //creats an output file
 			lineRead = inputFile.readLine(); //puts the data from the input file into the lineRead variable
 			
 			outputFile.println ("Teacher SPECIFICATIONS");   //prints title to console
